@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sun May 09 11:21:40 BDT 2021
+org.eclipse.jst.jee.server\:/binary\:/Users/faysalmazed/eclipse-workspace/mvc-third/WebContent/WEB-INF/lib/spring-web-5.2.6.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.6.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/faysalmazed/eclipse-workspace/second-term-mvc/WebContent/WEB-INF/lib/spring-web-5.2.6.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.6.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/faysalmazed/eclipse-workspace/mvc-third/WebContent/WEB-INF/lib/spring-web-5.2.6.RELEASE.jar=WEB-INF/lib/spring-web-5.2.6.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/faysalmazed/eclipse-workspace/second-term-mvc/WebContent/WEB-INF/lib/spring-web-5.2.6.RELEASE.jar=WEB-INF/lib/spring-web-5.2.6.RELEASE.jar

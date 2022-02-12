@@ -1,0 +1,24 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+
+	<!-- url -->
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatedb?useSSL=false</property>
+
+	<!-- username to db -->
+	<property name="hibernate.connection.username"> root</property>
+	
+	<!-- password -->
+	<property name="hibernate.connection.password">12345678</property>
+	
+	<!-- driver class -->
+	<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+	
+	
+	<!-- gonna talk to my sql database -->
+	<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+	
+</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,13 @@
+127.0.0.1 - - [21/Jan/2021:20:02:30 +0600] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:02:31 +0600] "GET /student-management/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:02:51 +0600] "GET /student-management/showStudent HTTP/1.1" 200 5311
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:03:06 +0600] "GET /student-management/deleteStudent?userId=15 HTTP/1.1" 500 8579
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:06:58 +0600] "GET /student-management/showStudent HTTP/1.1" 200 5311
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:07:12 +0600] "GET /student-management/deleteStudent?userId=15 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:07:12 +0600] "GET /student-management/showStudent HTTP/1.1" 200 5077
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:16:25 +0600] "GET /student-management/showStudent HTTP/1.1" 200 5077
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:16:45 +0600] "GET /student-management/deleteStudent?userId=14 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:16:45 +0600] "GET /student-management/showStudent HTTP/1.1" 200 4843
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:31:07 +0600] "GET /student-management/showStudent HTTP/1.1" 200 6607
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:31:59 +0600] "GET /student-management/deleteStudent?userId=20 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:20:31:59 +0600] "GET /student-management/showStudent HTTP/1.1" 200 6255

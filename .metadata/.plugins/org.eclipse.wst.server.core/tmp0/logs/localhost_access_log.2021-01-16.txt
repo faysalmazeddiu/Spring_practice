@@ -1,0 +1,16 @@
+127.0.0.1 - - [16/Jan/2021:10:20:59 +0600] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:21:00 +0600] "GET /student-management/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:21:22 +0600] "GET /student-management/showStudent HTTP/1.1" 500 9686
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:22:19 +0600] "GET /student-management/showStudent HTTP/1.1" 500 9686
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:24:24 +0600] "GET /student-management/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:24:35 +0600] "GET /student-management/showStudent HTTP/1.1" 200 2381
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:24:40 +0600] "GET /student-management/studentEntryPage? HTTP/1.1" 200 755
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:24:57 +0600] "POST /student-management/save-student HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:24:57 +0600] "GET /student-management/showStudent HTTP/1.1" 200 2492
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:36:29 +0600] "GET /student-management/showStudent HTTP/1.1" 200 2492
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:36:35 +0600] "GET /student-management/studentEntryPage? HTTP/1.1" 200 755
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:36:51 +0600] "POST /student-management/save-student HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:36:51 +0600] "GET /student-management/showStudent HTTP/1.1" 200 2605
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:36:54 +0600] "GET /student-management/studentEntryPage? HTTP/1.1" 200 755
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:37:09 +0600] "POST /student-management/save-student HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Jan/2021:10:37:09 +0600] "GET /student-management/showStudent HTTP/1.1" 200 2715

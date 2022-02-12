@@ -1,0 +1,12 @@
+<classpath>
+  <container id="SpringMVC!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/faysalmazed/eclipse-workspace/SpringMVC/WebContent/WEB-INF/lib/spring-webmvc-5.2.6.RELEASE.jar">
+      <source-attachment-path>/Users/faysalmazed/Downloads/spring-framework-master</source-attachment-path>
+    </entry>
+  </container>
+  <container id="mvc-first!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/faysalmazed/eclipse-workspace/mvc-first/WebContent/WEB-INF/lib/spring-webmvc-5.2.6.RELEASE.jar">
+      <source-attachment-path>/Users/faysalmazed/Downloads/spring-framework-master</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

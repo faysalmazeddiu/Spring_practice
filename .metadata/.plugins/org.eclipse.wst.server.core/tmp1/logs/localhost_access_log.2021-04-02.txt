@@ -1,0 +1,13 @@
+127.0.0.1 - - [02/Apr/2021:21:36:13 +0600] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:36:14 +0600] "GET /New-love-calculator/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:36:21 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:38:19 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:40:03 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:40:18 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:43:51 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2713
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:48:57 +0600] "POST /New-love-calculator/registration-success HTTP/1.1" 200 3092
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:21:54:19 +0600] "POST /New-love-calculator/registration-success HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:22:03:56 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2713
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:22:06:24 +0600] "GET /New-love-calculator/showRegistrationPage HTTP/1.1" 200 2713
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:22:15:08 +0600] "POST /New-love-calculator/registration-success HTTP/1.1" 200 3042
+0:0:0:0:0:0:0:1 - - [02/Apr/2021:22:15:26 +0600] "POST /New-love-calculator/registration-success HTTP/1.1" 200 556

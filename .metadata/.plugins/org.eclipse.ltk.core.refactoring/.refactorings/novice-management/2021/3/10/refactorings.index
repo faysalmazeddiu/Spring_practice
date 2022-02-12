@@ -1,0 +1,6 @@
+1614923096920	Rename resource 'student-list.jsp'
+1614924345045	Move 'views' to 'WEB-INF'
+1614950266401	Rename type 'StudentDAO'
+1614950453102	Rename type 'StudentController'
+1614955098129	Rename type 'StudentRowMapper'
+1615057792199	Rename resource 'Novice-entry.jsp'

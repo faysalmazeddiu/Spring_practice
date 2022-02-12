@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CreditCard.java&apos; to &apos;Bill-Process/src/main/java/com.sazedexpress.blc.api&apos;&#x0A;- Original project: &apos;New-love-calculator&apos;&#x0A;- Destination element: &apos;Bill-Process/src/main/java/com.sazedexpress.blc.api&apos;&#x0A;- Original element: &apos;com.sazedexoress.nlc.api.CreditCard.java&apos;" description="Copy compilation unit" destination="=Bill-Process/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sazedexpress.blc.api" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sazedexoress.nlc.api{CreditCard.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615922729682" units="1" version="1.0"/>
+</session>

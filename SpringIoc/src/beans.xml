@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        
+        
+      <!--   <context:annotation-config></context:annotation-config>
+        <context:component-scan base-package="com.home.classes"></context:component-scan> -->
+        
+     
+     <bean id="courseObject" class="com.home.classes.Course">
+     
+     		<!-- <property name="courseName" value="Mathmatics"></property>
+    		<property name="courseId" value="101"></property> -->
+    		
+    		<constructor-arg name="courseId" value="MS-001" type="java.lang.String"></constructor-arg>
+    		<constructor-arg name="courseName" value="Mathmatics"></constructor-arg>
+     
+     </bean>
+      
+      
+      
+       
+    <bean id="studentObj" class="com.home.classes.Student">
+    
+    	    <property name="studentNameString" value="Md Faysal Hossain MAzed"></property>
+    		<property name="studentId" value="101"></property> 
+    	    <property name="course" ref="courseObject"></property> 
+    
+    </bean>    
+      
+</beans>

@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Jan/2021:13:36:15 +0600] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Jan/2021:13:36:17 +0600] "GET /student-management/ HTTP/1.1" 200 52
+127.0.0.1 - - [11/Jan/2021:19:33:37 +0600] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Jan/2021:19:33:38 +0600] "GET /student-management/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [11/Jan/2021:19:34:37 +0600] "GET /student-management/showStudent HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [11/Jan/2021:19:39:54 +0600] "GET /student-management/showStudent HTTP/1.1" 200 153

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;beans.xml&apos; to &apos;spring-love-calculator/src/main/resources&apos;&#x0A;- Original project: &apos;mvc-first&apos;&#x0A;- Destination element: &apos;spring-love-calculator/src/main/resources&apos;&#x0A;- Original element: &apos;beans.xml&apos;" description="Copy file" destination="=spring-love-calculator/src\/main\/resources=/maven.pomderived=/true=/" element1="WebContent/WEB-INF/beans.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1611929751306" units="0" version="1.0"/>
+</session>

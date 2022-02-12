@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;home.com&apos; to &apos;second-term-mvc&apos;" description="Rename resource &apos;home.com&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/home.com" name="second-term-mvc" stamp="1609781514758" updateReferences="true"/>
+</session>

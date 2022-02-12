@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;second-term-mvc/WebContent/WEB-INF/front-controller-servlet.xml&apos; to &apos;front-controller-web-servlet.xml&apos;" description="Rename resource &apos;front-controller-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/front-controller-servlet.xml" name="front-controller-web-servlet.xml" stamp="1609909422070" updateReferences="true"/>
+</session>

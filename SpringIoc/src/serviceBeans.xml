@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        
+     <!--  for loading properties file -->  
+     <context:property-placeholder location="classpath:service-info.properties"/> 
+     
+     <!-- for enable java based configuration annotation --> 
+     <context:annotation-config></context:annotation-config>  
+        
+   <bean id="dataServicesObj_1" class="com.home.services.DataServices"></bean>  
+   <bean id="dataServicesObj_2" class="com.home.services.DataServices"></bean> 
+   
+   
+   
+   <bean id="missedCallAlertServices" class="com.home.services.MissedCallAlertServices"></bean>  
+   <bean id="smsServices" class="com.home.services.SmsServices"></bean> 
+   
+   <!-- 
+    <bean id="clients" class="com.home.services.Clients" autowire="byType">  
+   <bean id="clients" class="com.home.services.Clients">
+   
+   		<property name="services" ref="dataServicesObj"></property>
+   
+   </bean> 
+   
+   
+   
+    --> 
+   <bean id="clients" class="com.home.services.Clients">
+   
+   <!-- <property name="clientId" value="${client.id}"></property>
+   <property name="clientName" value="${client.name}"></property> -->
+   
+   		<!-- <property name="services" ref="dataServicesObj"></property> -->
+   
+   </bean>  
+        
+</beans>

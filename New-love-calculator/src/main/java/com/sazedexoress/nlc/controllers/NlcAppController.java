@@ -87,7 +87,7 @@ public class NlcAppController {
 	
 	
 	/*
-	 one way to receive form data
+	 first way : to receive form data and bind with spring provided Model class to pass it to result-page
 	@RequestMapping("/process-homepage")
 	public String processHomepage(@RequestParam String userName,@RequestParam String crashName,Model model){  // parameter name and query string should be same
 		
@@ -96,8 +96,23 @@ public class NlcAppController {
 		return "result-page";
 		
 	}
+
+	//Second way :  parameter name and query string should be same like @RequestParam("userName"), @RequestParam("crushName")
+
+	@RequestMapping("/process-homepage")
+	public String showResultPage(@RequestParam("userName") String userName1,@RequestParam("crushName") String crushName1,Model model) {
+		
+		System.out.println("user name is "+userName1);
+		System.out.println("Crush name is "+crushName1);
+		
+		model.addAttribute("userName", userName1);
+		model.addAttribute("crushName", crushName1);
+		
+		return "result-page";
+	}
+
 	
-	// anther way :
+	// Third way : when we lot of input  field in a form, then instead of catching all value in seperately , we can catch it by a Pojo class
 	
 	public String processHomepage(UserInfoDTO userInfoDTO, Model model) {
 		model.addAttribute("userInfo", userInfoDTO);
